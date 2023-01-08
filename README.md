@@ -1,13 +1,8 @@
-# PushUps: Build a workout app for Apple Watch
+# PushUps: a pushup workout app for Apple Watch
 
-Create your own workout app, quickly and easily, with HealthKit and SwiftUI.
+with HealthKit and SwiftUI.
 
 ## Overview
-
-- Note: This sample code project is associated with WWDC21 session
-[10009: Build a workout app for Apple Watch](https://developer.apple.com/wwdc21/10009/).
-
-## Configure the sample code project
 
 Before you run the sample code project in Xcode:
 
