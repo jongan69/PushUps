@@ -1,10 +1,3 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-The workout metrics view.
-*/
-
 import SwiftUI
 import HealthKit
 
@@ -23,7 +16,19 @@ struct MetricsView: View {
                 
                 Text(workoutManager.heartRate.formatted(.number.precision(.fractionLength(0))) + " bpm")
                 
-//                Text(Measurement(value: workoutManager.distance, unit: UnitLength.meters).formatted(.measurement(width: .abbreviated, usage: .road)))
+                Button {
+                    workoutManager.endWorkout()
+                } label: {
+                    Image(systemName: "xmark")
+                }
+                .tint(.red)
+            
+                Button {
+                    workoutManager.togglePause()
+                } label: {
+                    Image(systemName: workoutManager.running ? "pause" : "play")
+                }
+                .tint(.yellow)
             }
             .font(.system(.title, design: .rounded).monospacedDigit().lowercaseSmallCaps())
             .frame(maxWidth: .infinity, alignment: .leading)

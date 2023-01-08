@@ -50,7 +50,6 @@
 
 /* Begin PBXFileReference section */
 		9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		B97863FA9DADB69A3D7E0241 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		E08DF6C32661BF0600EB0963 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E0CF939D2661A76300F7CED2 /* PushUps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushUps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CF93A12661A76300F7CED2 /* PushUps WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PushUps WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,7 +101,6 @@
 				E0CF939E2661A76300F7CED2 /* Products */,
 				E0DCA61E2661B27D00496154 /* Frameworks */,
 				2165A03224FF992354618B48 /* Configuration */,
-				F133DF038AAB08EBB1FDBBE0 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,14 +173,6 @@
 				E0DCA6232661B3A800496154 /* WorkoutManager.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		F133DF038AAB08EBB1FDBBE0 /* LICENSE */ = {
-			isa = PBXGroup;
-			children = (
-				B97863FA9DADB69A3D7E0241 /* LICENSE.txt */,
-			);
-			path = LICENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

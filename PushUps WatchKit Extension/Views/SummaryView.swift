@@ -30,13 +30,7 @@ struct SummaryView: View {
                     SummaryMetricView(title: "Total Time",
                                       value: durationFormatter.string(from: workoutManager.workout?.duration ?? 0.0) ?? "")
                         .foregroundStyle(.yellow)
-                    SummaryMetricView(title: "Total Distance",
-                                      value: Measurement(value: workoutManager.workout?.totalDistance?.doubleValue(for: .meter()) ?? 0,
-                                                         unit: UnitLength.meters)
-                                        .formatted(.measurement(width: .abbreviated,
-                                                                usage: .road,
-                                                                numberFormatStyle: .number.precision(.fractionLength(2)))))
-                        .foregroundStyle(.green)
+                                        
                     SummaryMetricView(title: "Total Energy",
                                       value: Measurement(value: workoutManager.workout?.totalEnergyBurned?.doubleValue(for: .kilocalorie()) ?? 0,
                                                          unit: UnitEnergy.kilocalories)

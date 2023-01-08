@@ -1,10 +1,3 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-The paging view to switch between controls, metrics, and now playing views.
-*/
-
 import SwiftUI
 import WatchKit
 
