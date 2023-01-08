@@ -11,8 +11,6 @@ struct MetricsView: View {
                 ElapsedTimeView(elapsedTime: workoutManager.builder?.elapsedTime(at: context.date) ?? 0, showSubseconds: context.cadence == .live)
                     .foregroundStyle(.yellow)
                 
-                Text(Measurement(value: workoutManager.activeEnergy, unit: UnitEnergy.kilocalories)
-                        .formatted(.measurement(width: .abbreviated, usage: .workout, numberFormatStyle: .number.precision(.fractionLength(0)))))
                 
                 Text(workoutManager.heartRate.formatted(.number.precision(.fractionLength(0))) + " bpm")
             
