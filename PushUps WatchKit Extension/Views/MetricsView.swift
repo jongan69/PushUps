@@ -15,13 +15,6 @@ struct MetricsView: View {
                         .formatted(.measurement(width: .abbreviated, usage: .workout, numberFormatStyle: .number.precision(.fractionLength(0)))))
                 
                 Text(workoutManager.heartRate.formatted(.number.precision(.fractionLength(0))) + " bpm")
-                
-                Button {
-                    workoutManager.endWorkout()
-                } label: {
-                    Image(systemName: "xmark")
-                }
-                .tint(.red)
             
                 Button {
                     workoutManager.togglePause()

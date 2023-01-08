@@ -9,7 +9,8 @@ struct StartView: View {
         List(workoutTypes) { workoutType in
             NavigationLink(workoutType.name, destination: SessionPagingView(),
                            tag: workoutType, selection: $workoutManager.selectedWorkout)
-                .padding(EdgeInsets(top: 50, leading: 5, bottom: 50, trailing: 5))
+                .foregroundColor(SwiftUI.Color.green)
+                .padding(EdgeInsets(top: 20, leading: 5, bottom: 20, trailing: 5))
         }
         .listStyle(.carousel)
         .navigationBarTitle("Workouts")
