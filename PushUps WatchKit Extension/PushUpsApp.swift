@@ -8,7 +8,7 @@ The entry point into the app.
 import SwiftUI
 
 @main
-struct MyWorkoutsApp: App {
+struct PushUps: App {
     @StateObject private var workoutManager = WorkoutManager()
 
     @SceneBuilder var body: some Scene {
