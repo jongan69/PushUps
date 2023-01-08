@@ -49,7 +49,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		E08DF6C32661BF0600EB0963 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E0CF939D2661A76300F7CED2 /* PushUps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushUps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CF93A12661A76300F7CED2 /* PushUps WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PushUps WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,14 +83,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2165A03224FF992354618B48 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */,
-			);
-			name = Configuration;
-			sourceTree = "<group>";
-		};
 		E0CF93962661A76200F7CED2 = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +91,6 @@
 				E0CF93B12661A76500F7CED2 /* PushUps WatchKit Extension */,
 				E0CF939E2661A76300F7CED2 /* Products */,
 				E0DCA61E2661B27D00496154 /* Frameworks */,
-				2165A03224FF992354618B48 /* Configuration */,
 			);
 			sourceTree = "<group>";
 		};
@@ -300,7 +290,6 @@
 /* Begin XCBuildConfiguration section */
 		E0CF93BE2661A76600F7CED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -361,7 +350,6 @@
 		};
 		E0CF93BF2661A76600F7CED2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -416,7 +404,6 @@
 		};
 		E0CF93C52661A76600F7CED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -443,7 +430,6 @@
 		};
 		E0CF93C62661A76600F7CED2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -470,7 +456,6 @@
 		};
 		E0CF93C92661A76600F7CED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -486,11 +471,10 @@
 		};
 		E0CF93CA2661A76600F7CED2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CCDDFA02FD1E157086EAD25 /* SampleCode.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 97N6GR4YEK;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eth.jongan.PushUps;

@@ -2,6 +2,8 @@ import SwiftUI
 import HealthKit
 
 struct StartView: View {
+//    @Environment(\.complicationRenderingMode) var renderingMode
+    
     @EnvironmentObject var workoutManager: WorkoutManager
     var workoutTypes: [HKWorkoutActivityType] = [.functionalStrengthTraining]
 
@@ -13,7 +15,7 @@ struct StartView: View {
                 .padding(EdgeInsets(top: 20, leading: 5, bottom: 20, trailing: 5))
         }
         .listStyle(.carousel)
-        .navigationBarTitle("Workouts")
+        .navigationBarTitle("Start")
         .onAppear {
             workoutManager.requestAuthorization()
         }
@@ -34,7 +36,7 @@ extension HKWorkoutActivityType: Identifiable {
     var name: String {
         switch self {
         case .functionalStrengthTraining:
-            return "Start PushUps"
+            return "PushUps"
         default:
             return ""
         }
