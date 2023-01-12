@@ -27,6 +27,7 @@ class WorkoutManager: NSObject, ObservableObject {
     let healthStore = HKHealthStore()
     var session: HKWorkoutSession?
     var builder: HKLiveWorkoutBuilder?
+    static let shared = WorkoutManager()
 
     // Start the workout.
     func startWorkout(workoutType: HKWorkoutActivityType) {

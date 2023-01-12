@@ -7,7 +7,9 @@ import SwiftUI
 
 @main
 struct PushUps: App {
-    @StateObject private var workoutManager = WorkoutManager()
+    @StateObject public var workoutManager = WorkoutManager()
+    
+    let data = WorkoutManager.shared
 
     @SceneBuilder var body: some Scene {
         WindowGroup {
