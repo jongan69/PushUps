@@ -83,8 +83,8 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
             return createTimerCornerTemplate(forDate: date)
         case (_, _):
             return createTimerCornerTemplate(forDate: date)
-        @unknown default:
-            fatalError("*** Unknown Family and identifier pair: (\(complication.family), \(complication.identifier)) ***")
+//        @unknown default:
+//            fatalError("*** Unknown Family and identifier pair: (\(complication.family), \(complication.identifier)) ***")
         }
     }
     
